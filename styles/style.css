@@ -1,0 +1,61 @@
+* {
+  font-family: "Georgia", serif;
+}
+.work-area {
+  /* display: flex;
+  align-items: center;
+  flex-direction: column; */
+}
+.regular-block__container {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+  padding-bottom: 35px;
+
+  background-color: rgb(255, 255, 255);
+}
+
+.h2-class {
+  font-weight: 600;
+  color: #000000;
+  font-size: 30px;
+  line-height: 1.23;
+}
+
+.p-class {
+  font-weight: 300;
+  color: #000000;
+  font-size: 22px;
+  line-height: 1.55;
+}
+.price {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  text-align: center;
+  font-size: 22px;
+  height: 60px;
+  width: 180px;
+  background-color: #a8d0c3;
+  border-radius: 30px;
+  -moz-border-radius: 30px;
+  -webkit-border-radius: 30px;
+}
+.img-block_container {
+  position: fixed;
+  top: 50%;
+  z-index: -1;
+}
+.empty-space {
+  height: 100px;
+  width: 100%;
+  /* background-color: aqua; */
+}
+
+@media (min-width: 767px) {
+  .h2-class {
+    font-size: calc(24px + (16 + 16 * 0.7) * ((100vw - 320px) / 1280));
+  }
+}
